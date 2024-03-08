@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="wrap">
+        <div id="wrapper">
+            <h2 style="color: bisque;">cm to inches</h2>
+        </div> 
+        <div class="wrappe">
+        <div class="inputdiv" >
+            <input type="text" id="input" placeholder="length in cm">
+        </div>
+        <br>
+
+        <div id="but">
+            <button type="submit" onclick="convert()">convert to inches </button>
+        </div>
+            <br>
+
+            <div id="result">
+                <input type="text" id="result">
+       </div>
+    </div>
+</div>
+    <script>
+        function convert() {
+            let cm = Number(document.getElementById("input").value);
+            let inches = cm / 2.54; // let cel=(cm-32)*5/9 let fah=(c*9/5)+32
+            let result = document.getElementById("result");
+            result.innerHTML = inches.toFixed(3)+"inches";
+        }
+
+    </script>
+
+</body>
+
+
+</html>

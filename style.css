@@ -1,0 +1,45 @@
+.wrap{
+    background-color:bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#wrapper{
+    
+    border:20px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:500px;
+    margin-left:500px;
+    background-color: black;
+}
+.wrappe{
+    
+    border:20px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:500px;
+    margin-left:500px;
+    background-color:#151414;
+}
+.inputdiv{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:bisque;
+}
+#but{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+   
+}
+#result{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: aliceblue;
+  
+}
